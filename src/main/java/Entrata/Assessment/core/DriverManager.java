@@ -19,8 +19,8 @@ public class DriverManager extends BaseClass{
 	    
 	        case "chrome":
 	            WebDriverManager.chromedriver().setup();
-	           ChromeOptions options = new ChromeOptions();
-	           options.addArguments("headless");
+	            ChromeOptions options = new ChromeOptions();
+	            options.addArguments("headless");
 	            driver = new ChromeDriver(options);
 	            break;
 	            
